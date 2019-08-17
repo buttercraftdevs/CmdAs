@@ -1,0 +1,17 @@
+name: CMDAsPlayer
+version: ${pom.version}
+api: ["1.0.8"]
+author: xXSirGamesXx
+main: me.xxsirgamesxx.cmdas.Main
+description: Tp commands for buttercraft
+website: buttercraft.ddns.net
+
+commands:
+  cmdas:
+    description: CmdAs command
+    usage: "/CmdAs"
+    
+permissions:
+ cmdas.run:
+  description: "Allows the user to run /cmdas command"
+  default: op
